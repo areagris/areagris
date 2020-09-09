@@ -26,7 +26,7 @@ class ImageGallery extends Component {
   }
 
   render = () => (
-    <div className="dt mr4" style={{ width: `${this.props.item.width}px` }}>
+    <div className={`dt mr4 img-size--${this.props.item.size}`}>
       {this.props.item.isGallery ? (
         this.props.item.gallery.map((item, itemKey) => (
           <div key={itemKey} className={this.state.showIndex === itemKey ? 'db' : 'dn'}>
