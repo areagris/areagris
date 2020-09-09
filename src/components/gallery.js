@@ -15,6 +15,12 @@ const images = [
     ],
   },
   {
+    imageName: '5-retrato-autorretrato-fotografia-chile-diseño-deco-contemporaryart-artwork-cuerpo--escritura-arte-print-finart.jpg',
+    isGallery: false,
+    width: 878,
+    gallery: [],
+  },
+  {
     imageName: '6-retrato-autorretrato-fotografia-chile-diseño-deco-contemporaryart-artwork-cuerpo--escritura-arte-print-finart.jpg',
     isGallery: false,
     width: 392,

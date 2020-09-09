@@ -1,8 +1,7 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
 
 const Header = ({ siteTitle }) => (
   <header className="w-100 ph3 pv3 ph5-ns">
