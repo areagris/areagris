@@ -1,0 +1,6 @@
+.grid-home {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+}

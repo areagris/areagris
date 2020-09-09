@@ -1,0 +1,8 @@
+/*
+  Media queries
+*/
+@mixin mediaQuerySM {
+  @media screen and (max-width: $breakpointSM) {
+    @content;
+  }
+}

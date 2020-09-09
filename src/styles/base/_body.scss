@@ -1,0 +1,21 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.home-description {
+  min-width: 500px;
+}
+
+.logo {
+  width: 50px;
+}
+
+@include mediaQuerySM {
+  .home-description {
+    min-width: 200px;
+  }
+
+  .logo {
+    width: 30px;
+  }
+}
