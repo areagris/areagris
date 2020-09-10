@@ -30,7 +30,7 @@ body {
 
 @include mediaQuerySM {
   .home-description {
-    min-width: 200px;
+    min-width: 100%;
   }
 
   .logo {
