@@ -22,7 +22,7 @@ const IndexPage = () => {
         }}
       >
         <div
-          className="flex items-center container"
+          className="flex items-center-ns container"
           ref={ref => {
             setContainer(ref);
           }}

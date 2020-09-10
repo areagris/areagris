@@ -9,9 +9,7 @@ const Layout = ({ children }) => (
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet" />
     </Helmet>
     <Header />
-    <div
-      className="relative"
-    >
+    <div className="relative">
       <main>{children}</main>
     </div>
   </>
