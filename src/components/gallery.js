@@ -229,12 +229,14 @@ const images2 = [
   },
 ];
 
-const Gallery = () => (
-  <div className="flex">
-    {images2.map((item, key) => (
-      <ImageGallery key={key} item={item} />
-    ))}
-  </div>
-);
+const Gallery = () => {
+  return (
+    <div className="flex">
+      {images2.map((item, key) => (
+        <ImageGallery key={key} item={item} />
+      ))}
+    </div>
+  );
+}
 
 export default Gallery;
