@@ -30,8 +30,8 @@ const Intro = () => (
     </div>
     <div>
       <p className="b">Para consultas y opciones de enmarcado, contáctame:</p>
-      <p>info.areagris@gmail.com</p>
-      <p>instagram</p>
+      <p><a className="link-footer" href="mailto:info.areagris@gmail.com">info.areagris@gmail.com</a></p>
+      <p><a className="link-footer" href="https://www.instagram.com/area_gris/?hl=es-la">instagram</a></p>
     </div>
   </div>
 );

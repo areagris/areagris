@@ -21,7 +21,7 @@ class ImageGallery extends Component {
         } else {
           this.setState({ showIndex: this.state.showIndex + 1 });
         }
-      }, 3000)
+      }, 2000)
     }
   }
 

@@ -6,6 +6,12 @@ body {
   min-width: 500px;
 }
 
+.link-footer {
+  border-bottom: 1px solid #cccccc;
+  color: #000000;
+  text-decoration: none;
+}
+
 .logo {
   width: 50px;
 }
@@ -25,12 +31,20 @@ body {
 }
 
 .img-size--3 {
-  width: 878px;
+  width: 879px;
+}
+
+.img-size--4 {
+  width: 389px;
+}
+
+.img-size--5 {
+  width: 886px;
 }
 
 @include mediaQuerySM {
   .home-description {
-    min-width: 100%;
+    min-width: 70%;
   }
 
   .logo {
@@ -42,10 +56,18 @@ body {
   }
   
   .img-size--2 {
-    width: 906px;
+    width: 902px;
   }
   
   .img-size--3 {
     width: 678px;
+  }
+
+  .img-size--4 {
+    width: 297px;
+  }
+
+  .img-size--5 {
+    width: 681px;
   }
 }

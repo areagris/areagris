@@ -16,7 +16,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Área Gris" />
       <div
-        className="container"
+        className="container vh-100"
         ref={ref => {
           setContainer(ref);
         }}
