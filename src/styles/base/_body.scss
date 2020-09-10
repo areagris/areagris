@@ -10,6 +10,12 @@ body {
   width: 50px;
 }
 
+.overflow-layout {
+  overflow: none;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 .img-size--1 {
   width: 392px;
 }
@@ -36,7 +42,7 @@ body {
   }
   
   .img-size--2 {
-    width: 974px;
+    width: 906px;
   }
   
   .img-size--3 {
