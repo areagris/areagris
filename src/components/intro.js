@@ -29,8 +29,8 @@ const Intro = () => (
       <div className="pv1 tracked">---</div>
     </div>
     <div>
-      <p className="b">Para consultas y opciones de enmarcado, contáctame:</p>
-      <p><a className="link-footer" href="mailto:info.areagris@gmail.com">info.areagris@gmail.com</a></p>
+      <p className="b mb1">Para consultas y opciones de enmarcado, contáctame:</p>
+      <p className="mb1"><a className="link-footer" href="mailto:info.areagris@gmail.com">info.areagris@gmail.com</a></p>
       <p><a className="link-footer" href="https://www.instagram.com/area_gris/?hl=es-la">instagram</a></p>
     </div>
   </div>
